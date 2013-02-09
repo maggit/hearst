@@ -29,6 +29,10 @@ module Hearst
       Hearst::ArticleImagesProxy.new(self)
     end
 
+    def article_categories
+      Hearst::ArticleCategoriesProxy.new(self)
+    end
+
     def get(path, params={})
       params.merge!(:api_key => @api_key)
       response = JSON.parse(Typhoeus::Request.get(API + path, :params => params).body)

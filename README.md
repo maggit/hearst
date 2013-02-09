@@ -11,6 +11,7 @@ Article Sections Search
 
 Article Image Search
 
+Article Categories Search
 
 
 #TODO  - Doing right now
@@ -18,8 +19,6 @@ Article Image Search
   Source Search
 
   Author Search
-
-  Article Category Search
 
   Article Type Search
 

@@ -11,6 +11,8 @@ require "hearst/sections_proxy"
 require "hearst/section"
 require "hearst/article_images_proxy"
 require "hearst/article_image"
+require "hearst/article_categories_proxy"
+require "hearst/article_category"
 
 module Hearst
   class Error < StandardError ; end

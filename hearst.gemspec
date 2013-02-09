@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{hearst}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
   s.description = %q{Hearst API Wrapper}
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Raquel Hernandez", "Haris Amin"]
@@ -16,6 +16,8 @@ Gem::Specification.new do |s|
     "lib/hearst/article.rb",
     "lib/hearst/sections_proxy.rb",
     "lib/hearst/section.rb",
+    "lib/hearst/article_images_proxy.rb",
+    "lib/hearst/article_image.rb",
     "LICENSE",
     "spec/spec_helper.rb"
   ]

@@ -7,6 +7,8 @@ require "cgi"
 require "hearst/base"
 require "hearst/articles_proxy"
 require "hearst/article"
+require "hearst/sections_proxy"
+require "hearst/section"
 
 module Hearst
   class Error < StandardError ; end

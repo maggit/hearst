@@ -14,6 +14,8 @@ Gem::Specification.new do |s|
     "lib/hearst/base.rb",
     "lib/hearst/articles_proxy.rb",
     "lib/hearst/article.rb",
+    "lib/hearst/sections_proxy.rb",
+    "lib/hearst/section.rb",
     "LICENSE",
     "spec/spec_helper.rb"
   ]

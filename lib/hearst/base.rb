@@ -21,8 +21,11 @@ module Hearst
       Hearst::ArticlesProxy.new(self)
     end
 
+    def sections
+      Hearst::SectionsProxy.new(self)
+    end
+
     def get(path, params={})
-      params[:shape] = params[:shape] ? params[:shape] : 'full'
       params.merge!(:api_key => @api_key)
       response = JSON.parse(Typhoeus::Request.get(API + path, :params => params).body)
     end

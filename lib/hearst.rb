@@ -15,6 +15,8 @@ require "hearst/article_categories_proxy"
 require "hearst/article_category"
 require "hearst/authores_proxy"
 require "hearst/author"
+require "hearst/article_types_proxy"
+require "hearst/article_type"
 
 module Hearst
   class Error < StandardError ; end

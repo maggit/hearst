@@ -3,6 +3,12 @@
 Developed for Hearst Fashion Hack 2013 by [FashionSwatch](http://fashionswatch.co/)'s Team
 
 
+#Usage
+
+  -Rails
+  gem 'hearst', :git => 'https://github.com/maggit/hearst.git'
+  HearstAPI = Hearst::Base.new('API_KEY')
+
 #Supports 
 
 Article Search
@@ -15,18 +21,17 @@ Article Categories Search
 
 Author Search
 
+Article Type Search
 
-#TODO  - Doing right now
 
-  Source Search
+#TODO
 
-  Article Type Search
-
-  Template Search
+-Source Search
+-Template Search
 
 
 #Later
-  Ad Category Search
+-Ad Category Search
 
 
 

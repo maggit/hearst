@@ -1,6 +1,5 @@
 module Hearst
   class Article
-
     attr_reader :json
     attr_reader :title 
     attr_reader :site_id 

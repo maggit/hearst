@@ -16,6 +16,7 @@ module Hearst
     attr_reader :keywords
     attr_reader :media
     attr_reader :publish_date
+    attr_reader :sections
 
     def initialize(hearst, json)
       @hearst, @json = hearst, json

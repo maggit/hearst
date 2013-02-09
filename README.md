@@ -13,12 +13,12 @@ Article Image Search
 
 Article Categories Search
 
+Author Search
+
 
 #TODO  - Doing right now
 
   Source Search
-
-  Author Search
 
   Article Type Search
 

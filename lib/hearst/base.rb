@@ -33,6 +33,10 @@ module Hearst
       Hearst::ArticleCategoriesProxy.new(self)
     end
 
+    def authores
+      Hearst::AuthoresProxy.new(self)
+    end
+
     def get(path, params={})
       params.merge!(:api_key => @api_key)
       response = JSON.parse(Typhoeus::Request.get(API + path, :params => params).body)
